@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestro staff</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#eventos">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#conviertete-en-miembro"
+                >Conviértete en miembro</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#contactos">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestro staff</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Outliers The Story of Success: Por que unas personas tienen
+                  exito y otras no
+                </h3>
+                <p class="card__text">
+                  En Outliers (Fuera de serie), Malcolm Gladwell nos lleva en un
+                  viaje intelectual a través del mundo de los "atípicos": los
+                  mejores y más brillantes, los más famosos y los más exitosos.
+                  Él hace la pregunta: ¿qué hace que los grandes triunfadores
+                  sean diferentes?.
+                </p>
+                <p class="card__footer">Malcolm Gladwell</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Steal Like an Artist: 10 Things Nobody Told You About Being
+                  Creative
+                </h3>
+                <p class="card__text">
+                  En este libro, Austin Kleon te comparte diez principios para
+                  descubrir tu lado artístico y a tener una vida mucho más
+                  creativa. Nada es original, dice el autor, así que mejor
+                  acepta las influencias, instrúyete en el trabajo de los demás,
+                  reimagina y mezcla tu propio camino.
+                </p>
+                <p class="card__footer">Austin Kleon</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El acto de crear: una manera de ser</h3>
+                <p class="card__text">
+                  Del legendario productor musical, un maestro en el arte de
+                  ayudar a los demás a conectar con las fuentes de su propia
+                  creatividad, llega un libro maravillosamente fraguado a lo
+                  largo de muchos años con una visión profunda de la creatividad
+                  y de la vida dirigida todo el mundo.
+                </p>
+                <p class="card__footer">Rick Rubin</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Código completo: un manual práctico de construcción de
+                  software
+                </h3>
+                <p class="card__text">
+                  ¿Te gustaría saber cómo escribir un buen código
+                  independientemente de la arquitectura detrás del lenguaje de
+                  programación que hayas elegido? Entonces, podrías leer Código
+                  completo: un práctico manual sobre construcción de software.
+                  El cual abarca de forma general todo lo relacionado con la
+                  buena estructura de código.
+                </p>
+                <p class="card__footer">Steve McConnell</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
