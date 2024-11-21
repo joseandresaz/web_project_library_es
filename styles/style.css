@@ -343,14 +343,12 @@
 .footer {
   box-sizing: border-box;
   background-color: #000000;
-  border: 2px solid rgb(242, 255, 65);
   padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
   color: #ffffff;
-  border: 2px solid rgb(216, 42, 85);
   align-content: flex-start;
 }
 
@@ -359,7 +357,6 @@
 }
 
 .footer__column_content_social {
-  border: 2px solid rgb(42, 216, 71);
   flex-direction: column;
   margin-left: 80px;
 }
@@ -400,6 +397,5 @@
 
 .footer__copyright {
   color: #ffffff;
-  border: 2px solid rgb(42, 216, 71);
   margin-top: 100px;
 }
