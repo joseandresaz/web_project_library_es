@@ -341,21 +341,37 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000000;
+  border: 2px solid rgb(242, 255, 65);
+  padding: 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
+  color: #ffffff;
+  border: 2px solid rgb(216, 42, 85);
+  align-content: flex-start;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  border: 2px solid rgb(42, 216, 71);
+  flex-direction: column;
+  align-content: top;
+  margin-left: 80px;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -366,6 +382,9 @@
 }
 
 .footer__list-item {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
@@ -374,7 +393,13 @@
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
+  color: #ffffff;
+  border: 2px solid rgb(42, 216, 71);
+  margin-top: 100px;
 }
