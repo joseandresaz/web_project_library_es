@@ -360,7 +360,6 @@
 .footer__column_content_social {
   border: 2px solid rgb(42, 216, 71);
   flex-direction: column;
-  align-content: top;
   margin-left: 80px;
 }
 
