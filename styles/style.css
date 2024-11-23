@@ -111,8 +111,6 @@
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
-
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
@@ -372,7 +370,6 @@
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
