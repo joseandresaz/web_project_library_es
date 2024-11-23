@@ -226,6 +226,11 @@
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
+  position: relative; 
+}
+
+.events__image {
+  max-width: 100%; 
   position: relative;
 }
 
@@ -238,6 +243,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 10px; 
+}
+
+.person_name_feynman {
+  position:absolute;
   gap: 10px;
 }
 
@@ -340,13 +350,13 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f ;
   padding: 60px 80px;
+  color: #ffffff;
 }
 
 .footer__columns {
   display: flex;
-  color: #ffffff;
   align-content: flex-start;
 }
 
@@ -384,6 +394,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
